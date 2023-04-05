@@ -6,6 +6,8 @@ const form = document.querySelector('.feedback-form');
 
 const storageKey = 'feedback-form';
 
+// funkcja która dodaje dane do  localStorage
+
 const updateStorage = throttle(() => {
   const state = {
     email: emailInput.value,
